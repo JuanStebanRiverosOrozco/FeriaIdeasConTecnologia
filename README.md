@@ -63,3 +63,77 @@ Aunque los sensores IoT podrían ser interesantes para medir el desgaste del jug
 ---
 
 ## Justificación técnica (por qué estas herramientas son las más adecuadas)  
+
+- **React / React Native**  
+Son librerías y frameworks muy utilizados a nivel mundial, permiten desarrollar interfaces dinámicas, rápidas y responsivas Con React Native, el mismo código puede adaptarse tanto a iOS como a Android.  
+Usar React/React Native garantiza una curva de aprendizaje más corta gracias a la gran comunidad, y brinda una experiencia de usuario fluida y moderna.  
+Es producente porque Reduce costos y tiempos de desarrollo al reutilizar código para web y móvil, lo que permite llegar a más clientes en menos tiempo.  
+
+- **Node.js + Express**  
+Node.js es un entorno que ejecuta JavaScript en el servidor, y Express es un framework minimalista que facilita la creación de APIs escalables y eficientes.  
+Esta combinación permite manejar múltiples solicitudes concurrentes sin afectar el rendimiento, siendo ideal para proyectos que pueden crecer en usuarios y transacciones.  
+Es producente porque ofrece un backend rápido, flexible y escalable que soporta el crecimiento del proyecto sin necesidad de reestructurar la arquitectura inicial.  
+
+- **MongoDB**  
+Es una base de datos NoSQL que almacena la información en documentos flexibles, lo que facilita cambios en la estructura de datos sin afectar el sistema.  
+Permite guardar perfiles de clientes, historiales de compras y preferencias sin necesidad de esquemas rígidos, acelerando el desarrollo y la iteración.  
+Es producente porque se adapta perfectamente a proyectos que buscan agilidad y escalabilidad, además de integrarse muy bien con Node.js.  
+
+- **Shopify / Next.js + Stripe**  
+Shopify es una plataforma de e-commerce lista para usar, mientras que Next.js + Stripe permite una tienda más personalizada y controlada.  
+Ambas opciones aseguran pagos seguros, soporte global y compatibilidad con múltiples métodos de pago. Shopify acelera la salida al mercado, mientras que Stripe da flexibilidad total al negocio.  
+Es producente porque Facilitan la venta del producto en línea sin preocuparse por problemas de seguridad o infraestructura de pagos, asegurando confianza en los clientes.  
+
+- **GitHub + Docker + CI/CD**  
+GitHub permite control de versiones y trabajo colaborativo, Docker garantiza que la aplicación corra en cualquier entorno, y CI/CD (Integración y Despliegue Continuo) asegura actualizaciones automáticas y confiables.  
+Esta combinación profesionaliza el proyecto al mantener un flujo de trabajo ordenado, minimizar errores humanos y facilitar despliegues rápidos.  
+Es producente porque garantiza estabilidad en cada actualización, mejora la colaboración entre equipos y permite que el producto siempre esté disponible y funcionando correctamente.  
+
+
+## Método de despliegue de la página  
+
+### Mejor opción: *Vercel*  
+**Por qué:** Vercel es ideal para proyectos hechos con React y Next.js, permite desplegar de forma gratuita o con planes pagos, y se integra directamente con GitHub.  
+
+**Ventajas:**  
+- Integración automática con repositorios GitHub.  
+- Despliegue en segundos con cada cambio (CI/CD nativo) => (Integration (CI) and Continuous Delivery/Deployment (CD).) => (Integración Continua (CI) y Entrega/Despliegue Continuo (CD).)
+- Dominio gratuito con SSL incluido.  
+- Escalabilidad automática sin configuración complicada.  
+
+Es producente porque asegura que la aplicación siempre esté disponible, segura y actualizada sin necesidad de servidores complejos.  
+
+---
+
+## Alternativas de despliegue y justificación  
+
+**Netlify:**  
+Muy popular para frontend (especialmente proyectos en React). Tiene funciones similares a Vercel como CI/CD automático, dominio gratuito y facilidad de configuración.  
+Es producente porque ofrece simplicidad, ecosistema amplio y buena integración con GitHub.  
+
+**Heroku:**  
+Aunque su uso gratuito es limitado hoy en día, sigue siendo una buena opción para desplegar aplicaciones backend con Node.js.  
+Es producente porque facilita el despliegue de APIs robustas sin administrar infraestructura.  
+
+**Railway.app:**  
+Plataforma moderna que soporta backend, frontend y base de datos con configuración sencilla.  
+Es producente porque permite crecer paso a paso sin complejidad técnica, ideal en etapa inicial.  
+
+**Render:**  
+Similar a Railway, pero con más enfoque en estabilidad y soporte.  
+Es producente porque útil cuando se espera un crecimiento de usuarios, equilibrando costo y rendimiento.  
+
+**Firebase:**  
+Ofrece hosting web estático, base de datos en tiempo real, autenticación y notificaciones push. Servicio gestionado por Google con alta disponibilidad.  
+Es producente porque ideal para integrar autenticación y notificaciones en tiempo real, muy útil para apps móviles.  
+
+**GitHub Pages:**  
+Permite alojar sitios web estáticos desde un repositorio GitHub, sin costo.  
+Es producente porque perfecto para publicar páginas de presentación, documentación o catálogo del juguete.  
+
+---
+
+**Conclusión sobre despliegue:**  
+El mejor método es usar *Vercel* para el frontend y *Render o Railway* para el backend, mientras que *Firebase* puede complementar con notificaciones/autenticación y *GitHub Pages* puede servir como sitio informativo o de respaldo.  
+
+---
