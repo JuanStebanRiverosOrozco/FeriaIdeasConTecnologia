@@ -137,3 +137,58 @@ Es producente porque perfecto para publicar páginas de presentación, documenta
 El mejor método es usar *Vercel* para el frontend y *Render o Railway* para el backend, mientras que *Firebase* puede complementar con notificaciones/autenticación y *GitHub Pages* puede servir como sitio informativo o de respaldo.  
 
 ---
+
+# Estimado de Costos del Proyecto: Juguete saludable y no tóxico para caninos
+
+A continuación, un desglose de costos con versiones recientes de las herramientas propuestas:
+
+---
+
+## 1. Costos digitales
+
+### MongoDB   
+- Plan gratuito (“Free forever”): *$0 USD/mes* para 512 MB compartidos.   
+- Plan Flex (adecuado para desarrollo pequeño): desde *$0.011 USD/hora*, hasta un tope de $30 USD/mes.   
+- Plan dedicado (clusters más robustos): *$0.08 USD/hora* para comenzar (≈ $57.60 USD/mes si se usa todo el día y por todo el mes).    
+
+---
+
+### Vercel (hosting / despliegue frontend)  
+- Plan *Hobby (gratuito)*: incluye despliegues automáticos, SSL, CDN, 100 GB de transferencia.   
+- Plan *Pro: **$20 USD/mes* + uso adicional y puede aumentar hasta *$350 USD/mes* dependiendo del tráfico y funciones avanzadas.   
+
+---
+
+### GitHub (control de versiones / CI/CD)  
+- Repositorios públicos: *gratuitos*.   
+- Plan “Team” para repositorios privados u opciones avanzadas: *$4 USD/usuario/mes*   
+
+---
+
+### Shopify / Stripe (comercio electrónico)  
+- *Shopify: plan básico desde aproximadamente **$19 USD/mes* (precio típico de Shopify básico)  
+- *Stripe*: sin costo fijo mensual; cobran una comisión por transacción (típicamente ~2.9% + $0.30 USD por operación)  
+
+---
+
+### Otros servicios de hosting / alternativas  
+- *Netlify*: plan gratuito disponible, con límites de uso.  
+- *Render / Railway / Firebase*: ofrecen planes gratuitos o de bajo costo; sus tarifas dependen del uso (instancias, almacenamiento, tráfico).  
+- *GitHub Pages*: hosting gratuito para sitios estáticos.
+
+---
+
+
+*Conclusión:*  
+Con los planes gratuitos de MongoDB, Vercel y GitHub, se puede comenzar prácticamente sin costo digital. A medida que el proyecto crezca, los costos se mantendrán moderados. Los costos físicos dependen mucho del volumen de producción, pero hay posibilidad de reducción por economía de escala.
+
+---
+
+## Conclusión  
+
+El proyecto de juguete saludable y no tóxico para caninos es producente porque:  
+
+- Atiende una necesidad real en el mercado de mascotas (juguetes seguros).  
+- No requiere IoT ni hardware adicional, lo que mantiene bajo el costo y asegura accesibilidad para más clientes.  
+- Puede desplegarse fácilmente en la nube (Vercel + GitHub), garantizando disponibilidad y acceso global.  
+- Tiene alternativas sólidas (Firebase, Netlify, Heroku, Render, Railway, GitHub Pages) que le aportan flexibilidad para adaptarse según el crecimiento y necesidades. 
